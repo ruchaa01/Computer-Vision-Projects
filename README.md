@@ -33,7 +33,7 @@ Multi-layer perceptron
   2. Train two neural networks, MiniVGG and MiniVGG-BN. MiniVGG is a smaller, simplified version of the VGG architecture, while MiniVGG-BN is identical to MiniVGG except that        there are batch normalization layers after each convolution layer. Dataset used- MiniPlaces
   
   
-# Objecct Detection
+# Object Detection
 Implement a single-stage object detector, based on YOLO v1 and v2. Unlike the (better-performing) R-CNN models, single-stage stage detectors predict bounding boxes and classes without explicitly cropping region proposals out of the image or feature map. This makes them significantly faster to run. Dataset used- PASCAL VOC
 
 
