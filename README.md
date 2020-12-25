@@ -6,7 +6,7 @@ EECS 504- Winter 20
 Pet Edge Detection
   1. Application of horizontal and vertical edge gradients and computation of total edge strength.
   2. Comparison of images for: Edges without blurring, Edges with Gaussian Filter, Edges with Box Filter.
-  3. Computation of oriented edges in direction {theta} using horizontal and vertical gradients.
+  3. Computation of oriented edges in direction using horizontal and vertical gradients.
   
 
 # Signal Processing
@@ -30,7 +30,8 @@ Multi-layer perceptron
 
 # Scene Recognition
   1. Train a CNN to solve the scene recognition problem, i.e., the problem of determining which scene category a picture depicts. 
-  2. Train two neural networks, MiniVGG and MiniVGG-BN. MiniVGG is a smaller, simplified version of the VGG architecture, while MiniVGG-BN is identical to MiniVGG except that        there are batch normalization layers after each convolution layer. Dataset used- MiniPlaces
+  2. Train two neural networks, MiniVGG and MiniVGG-BN. MiniVGG is a smaller, simplified version of the VGG architecture, while MiniVGG-BN is identical to MiniVGG except that        there are batch normalization layers after each convolution layer. 
+  Dataset used- MiniPlaces
   
   
 # Object Detection
@@ -42,7 +43,7 @@ Implement two representation learning methods: an autoencoder and a recent const
 
 
 # Panoramic Stitching
-Given two input images, we will "stitch" them together to create a simple panorama. To construct the image panorama, we will use concepts learned in class such as keypoint detection, local invariant descriptors, RANSAC, and perspective warping.
+Given two input images, construct the image panorama, using keypoint detection, local invariant descriptors, RANSAC, and perspective warping.
 The panoramic stitching algorithm consists of four main steps:
   1. Detect keypoints and extract local invariant descriptors (using ORB) from two input images.
   2. Match the descriptors between the two images.
@@ -51,4 +52,4 @@ The panoramic stitching algorithm consists of four main steps:
  
  
 # Optical Flow
-Implement the Lucas-Kanade (LK) optical flow algorithm for estimating dense motion between a pair of images. Since some of the motions might be too large for the Taylor approximation of the LK step, hence apply the algorithm in a coarse-to-fine manner.
+Implement the Lucas-Kanade (LK) optical flow algorithm for estimating dense motion between a pair of images. 
